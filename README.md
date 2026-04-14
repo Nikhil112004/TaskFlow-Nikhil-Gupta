@@ -9,6 +9,14 @@ A full-stack task management system built as a Turborepo monorepo. Users registe
 **What it is:** Full-stack task management with auth, projects, tasks, and team assignment.  
 This submission targets a Frontend-role bar as well (polished React UX, route protection, persisted auth, optimistic updates), while still shipping the backend and infrastructure so reviewers can run the full product end-to-end.
 
+## Frontend UX & State
+
+- Persistent authentication using localStorage
+- Protected routes with redirect handling
+- Loading, error, and empty states across all views
+- Optimistic UI updates for task interactions
+- Responsive design (mobile + desktop)
+
 **Monorepo structure:**
 
 ```
